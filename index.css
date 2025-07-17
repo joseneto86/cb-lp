@@ -14,6 +14,13 @@ body{
     padding-bottom: 35vh;
     
 }
+.section1 .div-logo{
+  width: 100%;
+  background-color: #FFF;
+  padding: 1rem;
+  display: none;
+}
+
 .banner-container {
     align-self: stretch;
     padding-top: 12rem;
@@ -980,7 +987,10 @@ body{
         padding-bottom: 20vh;
     }
 }
-@media screen and (max-width: 1200px) {
+
+
+
+@media(max-width: 1200px) {
     .section2-title-text-dark {
         font-size: 2.5rem;
         line-height: 1;
@@ -990,6 +1000,9 @@ body{
         font-size: 2.5rem;
         line-height: 1;
     }
+    .container, .container-md, .container-sm {
+        max-width: 900px !important;
+    }
 }
 @media (max-width: 1154px) {
     .content-container {
@@ -997,7 +1010,10 @@ body{
     }
 }
 
+
+
 @media (max-width: 1076px) {
+   
     .content-container {
         max-width: 50vw;
     }
@@ -1010,6 +1026,7 @@ body{
 }
 
 @media (max-width: 1000px) {
+    
     .content-container {
         max-width: 40vw;
     }
@@ -1055,13 +1072,107 @@ body{
     }
 }
 
-@media (min-width: 768px) {
-    .container, .container-md, .container-sm {
-        max-width: 900px;
+@media (max-width: 610px) {
+    .action-button{
+        width: 100% !important;
     }
+    .section1 {
+        width: 100%;
+        background: #685BC7;
+        background-image: url(img/mobile/banner1.webp);
+        background-size: cover;
+        padding-bottom: 20vh;
+    }
+    .section1 .div-logo{
+        display: block;
+        text-align: center;
+    }
+    .section1 .div-logo img{
+        max-width: 8rem;
+        margin: auto;
+    }
+    .banner-container .logo{
+        display: none;
+    }
+    .banner-container {
+        padding-left: 0;
+    }
+    .content-container {
+        max-width: 80%;
+        margin: auto;
+    }
+    .main-title {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .description {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .section3-content iframe{
+        max-width: 100%;
+        height: 315px;
+    }
+    .section1 .form-control {
+        height: calc(1.5em + .75rem + 2px);
+        padding: .5rem .75rem;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .fields-container {
+        gap: 1.5rem;
+    }
+    .action-button{
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .section2-image{
+        max-width: 80%;
+    }
+    .section2-title-text-dark {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .section2-title-text-purple {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .section2-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        gap: 1rem;
+    }
+    .section2-description {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        
+    }
+    .section3-title-text-white{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .section3-title-text-pink{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .section3-description-text{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    .section3-description-text-bold{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    .section3-content{
+        padding-top: 2rem;
+    }
+    .section3-description{
+        max-width: 100%;
+    }
+    
+    
 }
 
-@media (max-width: 600px) {
 
-}
 
