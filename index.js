@@ -11,4 +11,9 @@ $(document).ready(function() {
 
 
 
+  $(".comecar-agora").on('click', function() {
+   window.location.href = "https://www.chababy.com.br/register";
+  });
+
+
 });

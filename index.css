@@ -122,6 +122,14 @@ body{
     background: #007025;
 }
 
+form{
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    display: flex
+}
 /* Estilos para a seção 2 */
 .section2 {
     width: 100%;
