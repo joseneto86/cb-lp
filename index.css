@@ -3,6 +3,9 @@ body{
     width: 100vw;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
 
 
 /* Estilos para o banner principal */
