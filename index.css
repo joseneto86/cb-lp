@@ -801,6 +801,9 @@ form{
     line-height: 1.2;
     word-wrap: break-word;
 }
+.section8-copyright-link.pol-priv{
+    cursor: pointer;
+}
 @media (max-width: 1713px) {
     .section1 {
         padding-bottom: 25vh;
