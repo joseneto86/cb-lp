@@ -103,6 +103,9 @@ body{
     gap: 1rem;
     display: flex;
 }
+form{
+    gap: 1rem;  
+}
 
 
 /* Botão de ação */
@@ -991,9 +994,7 @@ form{
     .banner-container{
         padding-left: 4rem;
     }
-    .content-container {
-        max-width: 40vw;
-    }
+    
 }
 @media (max-width: 1224px) {
     .main-title {
@@ -1047,9 +1048,6 @@ form{
 
 @media (max-width: 1000px) {
     
-    .content-container {
-        max-width: 40vw;
-    }
     .section1 {
         padding-bottom: 20vh;
     }
@@ -1061,6 +1059,9 @@ form{
         padding: 0 .75rem;
     }
     .fields-container {
+        gap: 0.5rem;
+    }
+    form{
         gap: 0.5rem;
     }
     .action-button {
@@ -1091,6 +1092,16 @@ form{
         height: 3.3rem;
     }
 }
+@media (max-width: 940px) {
+    .section1 {
+        padding-bottom: 12vh;
+    }
+}
+@media (max-width: 900px) {
+    .section1 {
+        padding-bottom: 12vh;
+    }
+}
 @media (max-width: 700px){
     .section4-steps-container{
         display: none;
@@ -1099,7 +1110,20 @@ form{
         display: block;
     }
 }
-
+@media (max-width: 680px) {
+    .section7-container {
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .section7-logo-container{
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .section7-logo {
+        max-width: 15rem;
+    }
+}
 @media (max-width: 610px) {
     .container, .container-md, .container-sm {
         max-width: 80vw !important;
@@ -1152,6 +1176,9 @@ form{
         font-size: 1.5rem;
     }
     .fields-container {
+        gap: 1.5rem;
+    }
+    form{
         gap: 1.5rem;
     }
     .action-button{
@@ -1395,18 +1422,9 @@ form{
     .section6 {
         padding-bottom: 0rem;
     }
-    .section7-container {
-        display: block;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
-    .section7-logo-container{
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .section7-logo {
-        max-width: 15rem;
-    }
+    
+   
+   
     .section3-content iframe{
         height: 250px;
     }
