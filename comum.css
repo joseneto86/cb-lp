@@ -1,0 +1,723 @@
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+
+.section1 .div-logo{
+  width: 100%;
+  background-color: #FFF;
+  padding: 1rem;
+  display: none;
+}
+
+.banner-container {
+    align-self: stretch;
+    padding-top: 12rem;
+    padding-bottom: 0;
+    padding-left: 8rem;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    display: inline-flex;
+}
+
+/* Logo */
+.logo {
+   width: 10rem;
+}
+
+/* Container do conteúdo principal */
+.content-container {
+    max-width: 35vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    display: flex;
+}
+
+/* Título principal */
+.main-title {
+    align-self: stretch;
+    font-size: 2.5rem;
+    font-family: Palanquin Dark;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.title-text-white {
+    color: white;
+   
+   
+}
+
+.title-text-pink {
+    color: #F5B6CD;
+}
+
+.title-text-black {
+    color: #000;
+}
+
+.title-text-purple {
+    color: #685BC7;
+}
+
+/* Descrição */
+.description {
+    width:100%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Palanquin;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+/* Container do formulário */
+.form-container {
+    width: 100%;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    display: flex;
+}
+
+/* Container dos campos */
+.fields-container {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    display: flex;
+}
+form{
+    gap: 1rem;  
+}
+
+
+/* Botão de ação */
+.action-button {
+    align-self: stretch;
+    height: 3.5rem;
+    position: relative;
+    background: #00B43C;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5;
+    word-wrap: break-word;
+    border: none;
+}
+.action-button:hover{
+    background: #007025;
+}
+
+form{
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    display: flex
+}
+/* Estilos para a seção 2 */
+.section2 {
+    width: 100%;
+}
+
+.section2-container {
+    align-self: stretch;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: white;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    display: inline-flex;
+}
+
+.section2-image-container {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+    display: inline-flex;
+}
+
+
+
+.section2-description {
+    align-self: stretch;
+    color: #161616;
+    font-size: 1.2rem;
+    font-family: Palanquin;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+
+.section3-header {
+    align-self: stretch;
+    padding-top: 5rem;    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    display: inline-flex;
+}
+
+.section3-title {
+    align-self: stretch;
+    text-align: center;
+}
+
+
+
+.section3-description {
+    max-width: 70%;
+    text-align: center;
+}
+
+
+
+.section3-content {
+    align-self: stretch;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+
+.section3-content iframe{
+    width: 560px;
+    height: 315px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.section3 .action-button,
+.section4 .action-button,
+.section5 .action-button,
+.section6 .action-button
+{
+    width: 20rem;
+    margin: auto;
+
+}
+
+/* Estilos para a seção 4 */
+.section4 {
+    width: 100%;
+    background: #FFF;
+}
+
+.section4-header {
+    width: 100%;
+    align-self: stretch;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    background: white;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    display: inline-flex;
+}
+
+
+
+@media (max-width: 1713px) {
+    .section1 {
+        padding-bottom: 25vh;
+    }
+}
+@media (max-width: 1630px) {
+    .section1 {
+        padding-bottom: 20vh;
+    }
+    .banner-container {
+        padding-top: 6rem;
+    }
+}
+@media (max-width: 1478px) {
+    .section1 {
+        padding-bottom: 20vh;
+    }
+    .banner-container {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .section1 {
+        padding-bottom: 20vh;
+    }
+    .banner-container {
+        padding-top: 2rem;
+        padding-bottom: 0;
+        padding-left: 8rem;
+        padding-right: 0;
+        gap: 1rem;
+    }
+    .logo {
+        width: 8rem;
+     }
+     .content-container {
+        max-width: 35vw;
+     }
+     .main-title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+     }
+     .fields-container {
+        gap: 1rem;
+    }
+    .description{
+        font-size: 1.2rem;
+    }
+    .section2-container {
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+     gap: 2rem;
+    }
+    
+    .section2-content-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 2rem;
+    }
+    
+    .section2-title-text-dark {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    
+    .section2-title-text-purple {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    .section3-header {
+         padding-top: 5rem;  
+         gap: 2rem;
+    }
+    
+   
+    .section6 {
+        padding-bottom: 3rem;
+    }
+    .section6-header {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        gap: 2rem;
+    }
+    .section6-features {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .section6-accordion-icon img {
+        max-width: 20px; 
+    }
+    .section6-tarifas {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        gap: 1rem;
+    }
+    .section7-container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        gap: 5rem;
+    }
+    .section7-logo {
+        max-width: 10rem;
+    }
+    .section8-footer {
+        padding-top:2rem;
+        padding-bottom: 2rem;
+        gap: 0.7rem;
+    }
+}
+@media (max-width: 1256px) {
+    .banner-container{
+        padding-left: 4rem;
+    }
+    
+}
+@media (max-width: 1224px) {
+    .main-title {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .section1 {
+        padding-bottom: 20vh;
+    }
+}
+
+
+
+@media(max-width: 1200px) {
+    .section2-title-text-dark {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    
+    .section2-title-text-purple {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 900px !important;
+    }
+}
+@media (max-width: 1154px) {
+    .content-container {
+        max-width: 50vw;
+    }
+}
+
+
+
+@media (max-width: 1076px) {
+   
+    .content-container {
+        max-width: 50vw;
+    }
+    .section1 {
+        padding-bottom: 15vh;
+    }
+    .main-title {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    .section1 {
+        padding-bottom: 20vh;
+    }
+    .main-title {
+        font-size: 1.8rem;
+    }
+    .section1 .form-control {
+        height: auto;
+        padding: 0 .75rem;
+    }
+    .fields-container {
+        gap: 0.5rem;
+    }
+    form{
+        gap: 0.5rem;
+    }
+    .action-button {
+        height: 2.5rem;
+    }
+    .section3-title-text-white {
+        font-size: 2.1rem;
+        line-height: 1;
+    }
+    .section3-title-text-pink{
+        font-size: 2.1rem;
+        line-height: 1;
+    }
+    .section4-title-text-dark{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .section4-title-text-purple{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .section4-divider {
+        width: 8rem;
+        height: 7rem;
+    }
+    .section4-divider-shape {
+        width: 6rem;
+        height: 3.3rem;
+    }
+}
+@media (max-width: 940px) {
+    .section1 {
+        padding-bottom: 12vh;
+    }
+}
+@media (max-width: 900px) {
+    .section1 {
+        padding-bottom: 12vh;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .container, .container-md, .container-sm {
+        max-width: 80vw !important;
+    }
+    .action-button{
+        width: 100% !important;
+    }
+    .section1 {
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 30vh;
+    }
+    .section1 .div-logo{
+        display: block;
+        text-align: center;
+    }
+    .section1 .div-logo img{
+        max-width: 8rem;
+        margin: auto;
+    }
+    .banner-container .logo{
+        display: none;
+    }
+    .banner-container {
+        padding-left: 0 !important;
+    }
+    .content-container {
+        max-width: 80% !important;
+        margin: auto;
+    }
+    .main-title {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 10vh;
+    }
+    .description {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .section3-content iframe{
+        max-width: 100%;
+        height: 315px;
+    }
+    .section1 .form-control {
+        height: calc(1.5em + .75rem + 2px);
+        padding: .5rem .75rem;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .fields-container {
+        gap: 1.5rem;
+    }
+    form{
+        gap: 1.5rem;
+    }
+    .action-button{
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .section2-container {
+        padding-top: 0rem;
+    }
+    .section2-title-text-dark {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .section2-title-text-purple {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .section2-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        gap: 2rem;
+    }
+    .section2-description {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+        
+    }
+    .section3-title-text-white{
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    .section3-title-text-pink{
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    .section3-description-text{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    .section3-description-text-bold{
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    .section3-content{
+        padding-top: 2rem;
+    }
+    .section3-description{
+        max-width: 100%;
+    }
+   
+    
+}
+@media (max-width: 550px) {
+    .section1 {
+        padding-bottom: 40vh;
+    }
+    .main-title {
+        padding-top: 5vh;
+    }
+    .section2-container {
+        padding-top: 0rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 3vh;
+    }
+    .content-container {
+        max-width: 90%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 90vw !important;
+    }
+    .section1 {
+        padding-bottom: 30vh;
+    }
+    
+    
+    .section2-title-text-dark {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .section2-title-text-purple {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .section2-description {
+        font-size: 1.3rem;
+    }
+    .section3-title-text-white{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .section3-title-text-pink{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .section4-title-text-dark {
+        font-size: 2.5rem;
+    }
+    .section4-title-text-purple{
+        font-size: 2.5rem;
+    }
+    .section4-step-image {
+        max-width: 8.5rem;
+    }
+    .section5-title-text-black {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .section5-title-text-purple {
+        font-size: 2.5rem;
+        line-height: 1.2;
+      
+    }
+    .section6-title-text-black {
+        font-size: 2.5rem;
+    }
+    .section6-title-text-purple{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .content-container {
+        max-width: 90%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 100vw !important;
+    }
+    .main-title {
+        font-size: 2.5rem;
+    }
+    .description {
+        font-size: 1.3rem;
+    }
+    .action-button {
+        font-size: 1.3rem;
+    }
+    .action-button ,
+    .section1 .form-control {
+        height: 50px;
+    }
+    .section2-content-text {
+        gap:1rem;
+    }
+    .section2-title-text-dark {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .section2-title-text-purple {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .section2-description {
+        font-size: 1.2rem;
+    }
+    .section3-title-text-white{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .section3-title-text-pink{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .section3-description-text {
+        font-size: 1.3rem;
+    }
+    .section3-description-text-bold {
+        font-size: 1.3rem;
+    }
+    .section3-content {
+        padding-bottom: 3.5rem;
+    }
+    .section3-content iframe{
+        height: 250px;
+    }
+    .section4-title-text-dark {
+        font-size: 2rem;
+    }
+    .section4-title-text-purple{
+        font-size: 2rem;
+    }
+    .section4-step-image {
+        max-width: 7rem;
+    }
+
+}
+

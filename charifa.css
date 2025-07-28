@@ -1,19 +1,47 @@
+/* Estilos para o banner principal */
 .section1 {
     width: 100%;
     background: #685BC7;
-    background-image: url(img/banner1.webp);
+    background-image: url(img/charifa_section1.webp);
     background-size: cover;
     padding-bottom: 35vh;
     
 }
 
-.section2-image {
-    width: 100%;
+.description {
+    color: #000;
 }
 
+.section2-image {
+    max-width: 80%;
+}
+
+
+.section2-title-text-dark {
+    color: #161616;
+    font-size: 2.5rem;
+    font-family: Palanquin Dark;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.section2-title-text-purple {
+    color: #685BC7;
+    font-size: 2.5rem;
+    font-family: Palanquin Dark;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.section2-content-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .section2-content-text {
     flex: 1 1 0;
-    align-self: stretch;
     padding-left: 1rem;
     padding-right: 1rem;
     flex-direction: column;
@@ -23,35 +51,16 @@
     display: inline-flex;
 }
 
-.section2-title-text-dark {
-    color: #161616;
-    font-size: 3rem;
-    font-family: Palanquin Dark;
-    font-weight: 400;
-    line-height: 1.2;
-    word-wrap: break-word;
-}
-
-.section2-title-text-purple {
-    color: #685BC7;
-    font-size: 3rem;
-    font-family: Palanquin Dark;
-    font-weight: 400;
-    line-height: 1.2;
-    word-wrap: break-word;
-}
-
-
 /* Estilos para a seção 3 */
 .section3 {
     width: 100%;
-    background: #685BC7;
+    background: #F5B6CD;
 }
 
 
 
-.section3-title-text-white {
-    color: #FFF;
+.section3-title-text-black {
+    color: #000;
     font-size: 2.5rem;
     font-family: Palanquin Dark;
     font-weight: 400;
@@ -59,25 +68,28 @@
     word-wrap: break-word;
 }
 
-.section3-title-text-pink {
-    color: #F5B6CD;
+.section3-title-text-purple {
+    color: #685BC7;
     font-size: 2.5rem;
     font-family: Palanquin Dark;
     font-weight: 400;
     line-height: 1.2;
     word-wrap: break-word;
 }
-
-
 
 .section3-content {
     padding-top: 3rem;
     padding-bottom: 7rem;
 }
 
+.section3-title-text-purple {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
 
 .section3-description-text {
-    color: white;
+    color: #000;
     font-size: 1.3rem;
     font-family: Palanquin;
     font-weight: 400;
@@ -86,13 +98,14 @@
 }
 
 .section3-description-text-bold {
-    color: white;
+    color: #000;
     font-size: 1.3rem;
     font-family: Palanquin;
     font-weight: 700;
     line-height: 1;
     word-wrap: break-word;
 }
+
 
 
 .section4-title {
@@ -106,6 +119,9 @@
     font-weight: 400;
     line-height: 1.2;
     word-wrap: break-word;
+}
+.section4-step-image.imgppt{
+    padding-top: 10%;
 }
 
 .section4-title-text-purple {
@@ -139,9 +155,10 @@
     display: inline-flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    gap: 5vw;
 }
 .section4-step-box{
-    width: 10rem;
+    width: 12rem;
 }
 .section4-step {
    
@@ -233,6 +250,7 @@
     line-height: 1;
     word-wrap: break-word;
 }
+
 
 
 /* Estilos para a seção 5 */
@@ -366,39 +384,21 @@
     word-wrap: break-word;
 }
 
-
-
+@media (max-width: 1380px) {
+    .content-container {
+        max-width: 40vw;
+    }
+    .banner-container{
+        padding-left: 4rem;
+    }
+    .section1 {
+        padding-bottom: 20vh;
+    }
+}
 
 
 
 @media (max-width: 1300px) {
-    .section4-header {
-        padding-top: 4rem;
-        padding-bottom: 2.5rem;
-        gap: 2rem;
-    }
-    .section4-content {   
-        padding-top: 4rem;
-        padding-bottom: 2.5rem;
-        gap: 4rem;
-    }
-    .section4-step {
-         gap: 1.4rem;
-    }
-    .section4-divider {
-        width: 12rem;
-        height: 11rem;
-    }
-    .section4-divider-shape {
-        width: 10rem;
-        height: 3.3rem;
-        left: 1.5rem;
-        top: 1.2rem;
-    }
-    .section4-step-2 {
-        gap: 1.4rem;
-    }
-   
     .section5-header {
         padding-top: 5rem;
         padding-bottom: 3rem;
@@ -430,21 +430,57 @@
     .section5-image {
         width: 100%;
     }
-    .section6 {
-        padding-bottom: 3rem;
-    } 
 }
-@media (max-width: 890px){
+@media (max-width: 1150px) {
+    .section4-step-image.imgppt {
+        padding-top: 5%;
+    }
+    .section4-step-image {
+        max-width: 50%;
+    }
+    .section4-steps-container {
+        gap: 2vw;
+    }
+}
+@media (max-width: 1150px) {
+    .section1 {
+        padding-bottom: 15vh;
+    }
+}
+
+@media (max-width: 1038px) {
+    .section1 {
+        padding-bottom: 10vh;
+    }
+}
+
+@media (max-width: 850px) {
     .section4-steps-container{
-        display: none;
-    }
-    .section4-mobile-steps-container{
-        display: block;
+        gap: 10vw;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 }
+
 @media (max-width: 610px) {
     .section1 {
-        background-image: url(img/mobile/banner1.webp);
+        background-image: url(img/mobile/banner_charifa_mobile.webp);
+        padding-bottom: 35vh;
+    }
+    .section2-content-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section2 .col-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section2 .row{
+        margin-right: 0;
+        margin-left: 0; 
+
     }
     .section5-content {
         display: block;
@@ -461,29 +497,38 @@
     .section5-image {
         width: 100%;
     }
-
     .section4-title-text-dark {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .section4-title-text-purple{
-        font-size: 3rem;
-    }
-    
-    .section4-step-box {
-        width: 100%;
-    }
-    .section4-step-image {
-        max-width: 10rem;
+        font-size: 2.5rem;
     }
     .section4-content {
-        padding-top: 1rem;
+        padding-top: 0;
     }
-    .section4-mobile-steps-container .row{
-        gap:4rem;
+    .section4-steps-container {
+     display: block;
+     text-align: center;
     }
-    .section4-step-description {
-        font-size: 1.3rem;
+    .section4-step-box {
+        width: 80%;
+        padding-bottom: 4rem;
     }
+    .section4-step-title{
+        font-size: 1.8rem;
+    }
+    .section4-step-description{
+        font-size: 1.1rem;
+    }
+    .section4-step-image.imgppt{
+        padding-top: 0;
+    }
+
+    .section4-step-image{
+        max-width: 8.5rem;
+    }
+    
+    
 }
 
 @media (max-width: 420px) {
