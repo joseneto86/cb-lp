@@ -19,6 +19,12 @@ $(document).ready(function() {
     window.open("https://www.sslshopper.com/ssl-checker.html?#hostname=https://www.chababy.com.br");
    });
 
+   $(".google-safe").on('click', function() {
+    window.open("https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.chababy.com.br ");
+   });
+
+   
+
    $(".reclameaqui").on('click', function() {
     window.open("https://www.reclameaqui.com.br/empresa/chababy/");
    });
