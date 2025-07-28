@@ -230,7 +230,7 @@
             </div>
             <div class="section5-content">
                 <div class="section5-image-container">
-                    <img class="section5-image" src="img/section5-img1.webp" />
+                    <img class="section5-image" src="img/section5-charifa.webp" />
                 </div>
                 <div class="section5-features">
                     <div class="section5-features-container">
